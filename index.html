@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:wght@500;700&family=Montserrat:wght@100&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/3cd87c14fd.js" crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- js -->
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="date-and-time">
+            <div class="time"></div>
+            <span class="meridian"></span>
+            <div class="date"></div>
+        </div>
+        <p class="loading">Loading...</p>
+        <div class="weather load">
+            <h2 class="city">Weather in <span></span></h2>
+            <h1 class="temp"><span></span>&deg;C</h1>
+            <sup><i class="fa-solid fa-clipboard"></i></sup>
+            <div class="flex">
+                <div class="description"></div>
+                <img src="" alt="" class="icon">
+            </div>
+            <div class="humidity">Humidty: <span></span>%</div>
+            <div class="wind">Wind Speed: <span></span> km/h</div>
+        </div>
+    </div>
+</body>
+
+</html>
